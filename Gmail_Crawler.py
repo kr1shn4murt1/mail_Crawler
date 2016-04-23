@@ -2,11 +2,15 @@
 # -*- coding: utf-8 -*-
 #Nombre: Tamano_Carpetas_correo.py
 #Autor: sthevens Zuluaga
-#Referencias: http://www.velocityreviews.com/forums/t335621-imap-get-size-of-mailboxes.html , http://yuji.wordpress.com/2011/06/22/python-imaplib-imap-example-with-gmail/
-#http://docs.python.org/library/imaplib.html , http://tools.ietf.org/html/rfc3501
+#Fecha: Septiembre 12 - 2012
+#https://github.com/kr1shn4murt1/mail_Crawler/blob/master/Gmail_Crawler.py
+#Referencias: http://www.velocityreviews.com/forums/t335621-imap-get-size-of-mailboxes.html
+#http://yuji.wordpress.com/2011/06/22/python-imaplib-imap-example-with-gmail/
+#http://docs.python.org/library/imaplib.html
+#http://tools.ietf.org/html/rfc3501
 #Dependencias: archivo "Correos_Gmail.conf" el cual debe estar en la misma carpeta que el script
-#Propósito: Éste script imprime los mensajes que cumplen con un criteio de busqueda de las cuentas de correo definidas en el archivo
-#"Tamano_Carpetas.conf" estableciendo una conexión imap con cada una.
+#Propósito: Éste script imprime los mensajes que cumplen con un criterio de busqueda de las cuentas de correo definidas en el archivo
+#"Correos_Gmail.conf" estableciendo una conexión imap con cada una.
 #Para guardar el reporte en un archivo ejecutar el script desde la linea de comandos así: Tamano_Carpetas_Gmail.py >> Reporte_Tamano_Carpetas[fecha].txt
 
 import sys, os, string, imaplib, re, ConfigParser, sys
